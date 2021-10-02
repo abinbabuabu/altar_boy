@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 class Constants {
+  //Basic details
+  static const String APP_NAME = 'Altar Boy';
   //Styling
   static const String FONT_FAMILY = 'Montserrat';
   static const Color WHITE_BACKGROUND = Color(0xFFFAF9F9);
@@ -25,4 +27,7 @@ class Constants {
   static const String SUBMIT = 'Submit';
   static const String HAVE_ACCOUNT = 'Already have an account ? ';
   static const String LOGIN = 'Login';
+  static const String FORGOT_PASSWORD = 'Forgot Password ?';
+  static const String DONT_HAVE_AN_ACCOUNT ='Don\'t have an account ?  ';
+  static const String REGISTER = 'Register';
 }

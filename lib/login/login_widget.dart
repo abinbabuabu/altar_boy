@@ -1,3 +1,4 @@
+import 'package:altar_boy/assets/constants.dart';
 import 'package:flutter/material.dart';
 
 import '../account_registration/account_registration_widget.dart';
@@ -135,14 +136,14 @@ class _LoginWidgetState extends State<LoginWidget> {
                               controller: textController,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: 'Password',
+                                labelText: Constants.PASSWORD,
                                 labelStyle: FlutterFlowTheme.bodyText1.override(
-                                  fontFamily: 'Montserrat',
+                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Color(0xD23A3A3A),
                                 ),
                                 hintText: 'Your Password',
                                 hintStyle: FlutterFlowTheme.bodyText1.override(
-                                  fontFamily: 'Montserrat',
+                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Color(0xD23A3A3A),
                                 ),
                                 enabledBorder: OutlineInputBorder(
@@ -154,7 +155,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: Color(0x00000000),
+                                    color: Constants.BLACK,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(10),
@@ -165,13 +166,13 @@ class _LoginWidgetState extends State<LoginWidget> {
                                     10, 20, 0, 20),
                               ),
                               style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: 'Montserrat',
+                                fontFamily: Constants.FONT_FAMILY,
                                 color: Color(0xD23A3A3A),
                               ),
                               keyboardType: TextInputType.visiblePassword,
                               validator: (val) {
                                 if (val.isEmpty) {
-                                  return 'Field is required';
+                                  return Constants.FIELD_REQUIRED;
                                 }
 
                                 return null;
@@ -179,10 +180,10 @@ class _LoginWidgetState extends State<LoginWidget> {
                             ),
                           ),
                           Text(
-                            'Forgot Password ?',
+                            Constants.FORGOT_PASSWORD,
                             textAlign: TextAlign.end,
                             style: FlutterFlowTheme.bodyText1.override(
-                              fontFamily: 'Montserrat',
+                              fontFamily: Constants.FONT_FAMILY,
                             ),
                           ),
                           Padding(
@@ -192,13 +193,13 @@ class _LoginWidgetState extends State<LoginWidget> {
                               onPressed: () {
                                 print('Button pressed ...');
                               },
-                              text: 'Submit',
+                              text: Constants.SUBMIT,
                               options: FFButtonOptions(
                                 width: double.infinity,
                                 height: 55,
                                 color: Colors.black,
                                 textStyle: FlutterFlowTheme.subtitle2.override(
-                                  fontFamily: 'Montserrat',
+                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w500,
                                 ),
@@ -229,16 +230,16 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Don\'t have an account ?  ',
+                                    Constants.DONT_HAVE_AN_ACCOUNT,
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      fontFamily: Constants.FONT_FAMILY,
                                     ),
                                   ),
                                   Text(
-                                    'Register',
+                                    Constants.REGISTER,
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      fontFamily: Constants.FONT_FAMILY,
                                       color: Color(0xFF059CD9),
                                       fontWeight: FontWeight.w600,
                                     ),

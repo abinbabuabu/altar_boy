@@ -1,3 +1,4 @@
+import 'package:altar_boy/assets/constants.dart';
 import 'package:flutter/material.dart';
 
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -29,42 +30,42 @@ class _InputFieldWidgetState extends State<InputFieldWidget> {
           controller: textController,
           obscureText: false,
           decoration: InputDecoration(
-            labelText: 'Email Id',
+            labelText: Constants.EMAIL,
             labelStyle: FlutterFlowTheme.bodyText1.override(
-              fontFamily: 'Montserrat',
-              color: Color(0xD23A3A3A),
+              fontFamily: Constants.FONT_FAMILY,
+              color: Constants.DARK_FONT_COLOR,
             ),
             hintText: 'Your Church Name',
             hintStyle: FlutterFlowTheme.bodyText1.override(
-              fontFamily: 'Montserrat',
-              color: Color(0xD23A3A3A),
+              fontFamily: Constants.FONT_FAMILY,
+              color: Constants.DARK_FONT_COLOR,
             ),
             enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(
-                color: Color(0x00000000),
+                color: Constants.BLACK,
                 width: 1,
               ),
               borderRadius: BorderRadius.circular(10),
             ),
             focusedBorder: OutlineInputBorder(
               borderSide: BorderSide(
-                color: Color(0x00000000),
+                color: Constants.BLACK,
                 width: 1,
               ),
               borderRadius: BorderRadius.circular(10),
             ),
             filled: true,
-            fillColor: Color(0xFFEEEEEE),
+            fillColor: Constants.DECORATION_WHITE,
             contentPadding: EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
           ),
           style: FlutterFlowTheme.bodyText1.override(
-            fontFamily: 'Montserrat',
+            fontFamily: Constants.FONT_FAMILY,
             color: Color(0xD23A3A3A),
           ),
           keyboardType: TextInputType.emailAddress,
           validator: (val) {
             if (val.isEmpty) {
-              return 'Field is required';
+              return Constants.FIELD_REQUIRED;
             }
 
             return null;
