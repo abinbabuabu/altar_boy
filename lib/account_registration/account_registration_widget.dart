@@ -1,3 +1,4 @@
+import 'package:altar_boy/assets/constants.dart';
 import 'package:flutter/material.dart';
 
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -13,30 +14,30 @@ class AccountRegistrationWidget extends StatefulWidget {
 }
 
 class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
-  TextEditingController textController1;
-  TextEditingController textController2;
-  TextEditingController textController3;
-  TextEditingController textController4;
-  TextEditingController textController5;
-  TextEditingController textController6;
-  TextEditingController textController7;
-  TextEditingController textController8;
-  TextEditingController textController9;
+  TextEditingController churchNameController;
+  TextEditingController priestNameController;
+  TextEditingController denominationController;
+  TextEditingController emailController;
+  TextEditingController passwordController;
+  TextEditingController phoneController;
+  TextEditingController addressLaneOneController;
+  TextEditingController addressLaneTwoController;
+  TextEditingController pincodeController;
   final formKey = GlobalKey<FormState>();
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    textController1 = TextEditingController();
-    textController2 = TextEditingController();
-    textController3 = TextEditingController();
-    textController4 = TextEditingController();
-    textController5 = TextEditingController();
-    textController6 = TextEditingController();
-    textController7 = TextEditingController();
-    textController8 = TextEditingController();
-    textController9 = TextEditingController();
+    churchNameController = TextEditingController();
+    priestNameController = TextEditingController();
+    denominationController = TextEditingController();
+    emailController = TextEditingController();
+    passwordController = TextEditingController();
+    phoneController = TextEditingController();
+    addressLaneOneController = TextEditingController();
+    addressLaneTwoController = TextEditingController();
+    pincodeController = TextEditingController();
   }
 
   @override
@@ -49,10 +50,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
           backgroundColor: FlutterFlowTheme.primaryColor,
           automaticallyImplyLeading: true,
           title: Text(
-            'Account Registration',
+            Constants.ACCOUNT_REGISTRATION,
             style: FlutterFlowTheme.bodyText1.override(
-              fontFamily: 'Montserrat',
-              color: Color(0xFFFAF9F9),
+              fontFamily: Constants.FONT_FAMILY,
+              color: Constants.WHITE_BACKGROUND,
               fontSize: 24,
               fontWeight: FontWeight.w500,
             ),
@@ -81,45 +82,45 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController1,
+                        controller: churchNameController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Church Name',
+                          labelText: Constants.CHURCH_NAME,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
-                          hintText: 'Your Church Name',
+                          hintText: Constants.HINT_CHURCH_NAME,
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -129,45 +130,45 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController2,
+                        controller: priestNameController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Pastor / Priest Name',
+                          labelText: Constants.PRIEST_NAME,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
-                          hintText: 'Your Church Name',
+                          hintText: Constants.HINT_NAME,
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -177,45 +178,45 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController3,
+                        controller: denominationController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Denomination',
+                          labelText: Constants.DENOMINATION,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -225,46 +226,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController4,
+                        controller: emailController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Emial Id',
+                          labelText: Constants.EMAIL,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.emailAddress,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -274,46 +275,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController5,
+                        controller: passwordController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Password',
+                          labelText: Constants.PASSWORD,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.visiblePassword,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -323,46 +324,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController6,
+                        controller: phoneController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Phone Number',
+                          labelText: Constants.PHONE,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.phone,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -372,46 +373,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController7,
+                        controller: addressLaneOneController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Address Line 1',
+                          labelText: Constants.ADDRESS_LANE_1,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.streetAddress,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -421,46 +422,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController8,
+                        controller: addressLaneTwoController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Address Line 2',
+                          labelText: Constants.ADDRESS_LANE_2,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.streetAddress,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -470,46 +471,46 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: TextFormField(
-                        controller: textController9,
+                        controller: pincodeController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: 'Pincode',
+                          labelText: Constants.PINCODE,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
-                            color: Color(0xD23A3A3A),
+                            fontFamily: Constants.FONT_FAMILY,
+                            color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Color(0x00000000),
+                              color: Constants.BLACK,
                               width: 1,
                             ),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           filled: true,
-                          fillColor: Color(0xFFEEEEEE),
+                          fillColor: Constants.DECORATION_WHITE,
                           contentPadding:
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
-                          color: Color(0xD23A3A3A),
+                          fontFamily: Constants.FONT_FAMILY,
+                          color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.number,
                         validator: (val) {
                           if (val.isEmpty) {
-                            return 'Field is required';
+                            return Constants.FIELD_REQUIRED;
                           }
 
                           return null;
@@ -522,13 +523,13 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         onPressed: () {
                           print('Button pressed ...');
                         },
-                        text: 'Submit',
+                        text: Constants.SUBMIT,
                         options: FFButtonOptions(
                           width: double.infinity,
                           height: 55,
                           color: Colors.black,
                           textStyle: FlutterFlowTheme.subtitle2.override(
-                            fontFamily: 'Montserrat',
+                            fontFamily: Constants.FONT_FAMILY,
                             color: Colors.white,
                             fontWeight: FontWeight.w500,
                           ),
@@ -556,15 +557,15 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Already have an account ? ',
+                              Constants.HAVE_ACCOUNT,
                               style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: 'Montserrat',
+                                fontFamily: Constants.FONT_FAMILY,
                               ),
                             ),
                             Text(
-                              'Login',
+                              Constants.LOGIN,
                               style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: 'Montserrat',
+                                fontFamily: Constants.FONT_FAMILY,
                                 color: Color(0xFF059CD9),
                                 fontWeight: FontWeight.w600,
                               ),
