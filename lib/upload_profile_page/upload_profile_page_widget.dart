@@ -65,7 +65,6 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
           title: Text(
             'Upload Profile',
             style: FlutterFlowTheme.title2.override(
-              fontFamily: 'Montserrat',
               color: FlutterFlowTheme.tertiaryColor,
             ),
           ),
@@ -136,7 +135,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                       Text(
                                         '1. Personal Information',
                                         style: FlutterFlowTheme.title3.override(
-                                          fontFamily: 'Montserrat',
+                                          
                                         ),
                                       ),
                                       Padding(
@@ -150,14 +149,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your First Name',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -184,7 +183,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           validator: (val) {
@@ -207,14 +206,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your Last Name',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -241,7 +240,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           validator: (val) {
@@ -272,7 +271,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               textStyle: FlutterFlowTheme
                                                   .bodyText1
                                                   .override(
-                                                fontFamily: 'Montserrat',
+                                                
                                                 color: Color(0xD23A3A3A),
                                                 fontWeight: FontWeight.normal,
                                               ),
@@ -298,7 +297,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                                   labelStyle: FlutterFlowTheme
                                                       .bodyText1
                                                       .override(
-                                                    fontFamily: 'Montserrat',
+                                                    
                                                     color: Color(0xD23A3A3A),
                                                   ),
                                                   hintText:
@@ -306,7 +305,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                                   hintStyle: FlutterFlowTheme
                                                       .bodyText1
                                                       .override(
-                                                    fontFamily: 'Montserrat',
+                                                    
                                                     color: Color(0xD23A3A3A),
                                                   ),
                                                   enabledBorder:
@@ -339,7 +338,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                                 style: FlutterFlowTheme
                                                     .bodyText1
                                                     .override(
-                                                  fontFamily: 'Montserrat',
+                                                  
                                                   color: Color(0xD23A3A3A),
                                                 ),
                                                 keyboardType:
@@ -367,14 +366,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your Email ID',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -401,7 +400,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           keyboardType:
@@ -426,14 +425,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your Phone number',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -460,7 +459,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           keyboardType: TextInputType.phone,
@@ -484,14 +483,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your address',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -518,7 +517,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           keyboardType:
@@ -543,14 +542,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your address',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -577,7 +576,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           keyboardType:
@@ -602,14 +601,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             labelStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             hintText: 'Your Pincode',
                                             hintStyle: FlutterFlowTheme
                                                 .bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                             enabledBorder: OutlineInputBorder(
@@ -636,7 +635,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           ),
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                           keyboardType: TextInputType.number,
@@ -668,7 +667,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             textStyle: FlutterFlowTheme
                                                 .subtitle2
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Colors.white,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -712,7 +711,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                   '2. Career Information',
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.title3.override(
-                                    fontFamily: 'Montserrat',
+                                    
                                   ),
                                 ),
                                 Padding(
@@ -725,14 +724,14 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                       labelText: 'Educational Qualification',
                                       labelStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       hintText:
                                           'Your Educational qualification',
                                       hintStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       enabledBorder: OutlineInputBorder(
@@ -756,7 +755,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               10, 20, 0, 20),
                                     ),
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                     validator: (val) {
@@ -779,13 +778,13 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           'Educational Stream ( eg. B.Sc, M.Sc..etc )',
                                       labelStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       hintText: 'Your Educational stream',
                                       hintStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       enabledBorder: OutlineInputBorder(
@@ -809,7 +808,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               10, 20, 0, 20),
                                     ),
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                     validator: (val) {
@@ -831,13 +830,13 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                       labelText: 'Occupation',
                                       labelStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       hintText: 'Your Occupation',
                                       hintStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       enabledBorder: OutlineInputBorder(
@@ -861,7 +860,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               10, 20, 0, 20),
                                     ),
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                     validator: (val) {
@@ -883,13 +882,13 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                       labelText: 'Workplace Name',
                                       labelStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       hintText: 'Your workplace',
                                       hintStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       enabledBorder: OutlineInputBorder(
@@ -913,7 +912,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               10, 20, 0, 20),
                                     ),
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                     validator: (val) {
@@ -935,13 +934,13 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                       labelText: 'Income Range',
                                       labelStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       hintText: 'Your income range',
                                       hintStyle:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                       enabledBorder: OutlineInputBorder(
@@ -965,7 +964,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               10, 20, 0, 20),
                                     ),
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                     validator: (val) {
@@ -984,7 +983,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                     '3. Other Information',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 ),
@@ -1007,7 +1006,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           textAlign: TextAlign.start,
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                         ),
@@ -1025,7 +1024,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           height: 50,
                                           textStyle: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                             fontWeight: FontWeight.normal,
                                           ),
@@ -1048,7 +1047,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           textAlign: TextAlign.start,
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                         ),
@@ -1066,7 +1065,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                           height: 50,
                                           textStyle: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                             fontWeight: FontWeight.normal,
                                           ),
@@ -1096,7 +1095,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                             textStyle: FlutterFlowTheme
                                                 .subtitle2
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Colors.white,
                                               fontWeight: FontWeight.w500,
                                             ),
@@ -1140,7 +1139,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                   '4.  Profile Images',
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.title3.override(
-                                    fontFamily: 'Montserrat',
+                                    
                                   ),
                                 ),
                               ),
@@ -1183,7 +1182,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               textStyle: FlutterFlowTheme
                                                   .subtitle2
                                                   .override(
-                                                fontFamily: 'Montserrat',
+                                                
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.w500,
                                               ),
@@ -1230,7 +1229,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                               textStyle: FlutterFlowTheme
                                                   .subtitle2
                                                   .override(
-                                                fontFamily: 'Montserrat',
+                                                
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.w500,
                                               ),
@@ -1260,7 +1259,7 @@ class _UploadProfilePageWidgetState extends State<UploadProfilePageWidget> {
                                         color: Colors.black,
                                         textStyle:
                                             FlutterFlowTheme.subtitle2.override(
-                                          fontFamily: 'Montserrat',
+                                          
                                           color: Colors.white,
                                         ),
                                         elevation: 3,
