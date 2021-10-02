@@ -1,9 +1,8 @@
+import 'package:flutter/material.dart';
+
 import '../flutter_flow/flutter_flow_drop_down.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class UploadProfilePageWidget extends StatefulWidget {
   UploadProfilePageWidget({Key key}) : super(key: key);
