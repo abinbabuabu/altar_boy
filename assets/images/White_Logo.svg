@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="229.673" viewBox="0 0 176 229.673">
+  <g id="OBJECTS" transform="translate(0)">
+    <path id="Path_2" data-name="Path 2" d="M145.6,57.079V148.3a12.62,12.62,0,0,1-12.645,12.5H97.318a8.772,8.772,0,0,1-8.772-8.747v-60.2h15.369a8.772,8.772,0,0,0,8.772-8.747v-1.25a8.772,8.772,0,0,0-8.772-8.772H88.547V55.8A8.747,8.747,0,0,0,79.8,47.058H76.551A8.772,8.772,0,0,0,67.779,55.8V73.073H52.36a8.772,8.772,0,0,0-8.772,8.772v1.25a8.772,8.772,0,0,0,8.772,8.747H67.779v60.328a8.772,8.772,0,0,1-8.847,8.747H23.345A12.646,12.646,0,0,1,10.7,148.42V57.079a12.67,12.67,0,0,1,5.2-10.2L70.7,2.5A12.5,12.5,0,0,1,85.7,2.5l54.755,44.384a12.5,12.5,0,0,1,5.148,10.2Z" transform="translate(10.3 0)" fill="#fff"/>
+    <text id="ALTAR_BOY" data-name="ALTAR BOY" transform="translate(1 208.035)" fill="#fff" font-size="34" font-family="ProximaNova-Extrabld, Proxima Nova"><tspan x="0" y="0">A</tspan><tspan y="0" letter-spacing="-0.1em">L</tspan><tspan y="0" letter-spacing="-0.06em">T</tspan><tspan y="0">AR B</tspan><tspan y="0" letter-spacing="-0.04em">O</tspan><tspan y="0">Y</tspan></text>
+    <text id="YOUR_CHURCH_ASSISTANT" data-name="YOUR CHURCH ASSISTANT" transform="translate(3 226.673)" fill="#fff" font-size="9" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.31em"><tspan x="0" y="0">YOUR CHURCH ASSISTANT</tspan></text>
+  </g>
+</svg>
