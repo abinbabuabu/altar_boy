@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 
 class FlutterFlowDropDown extends StatefulWidget {
   const FlutterFlowDropDown({
@@ -40,6 +39,7 @@ class FlutterFlowDropDown extends StatefulWidget {
 
 class _FlutterFlowDropDownState extends State<FlutterFlowDropDown> {
   String dropDownValue;
+
   List<String> get effectiveOptions =>
       widget.options.isEmpty ? ['[Option]'] : widget.options;
 

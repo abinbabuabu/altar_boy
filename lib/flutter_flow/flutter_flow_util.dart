@@ -10,7 +10,9 @@ import 'package:url_launcher/url_launcher.dart';
 import 'lat_lng.dart';
 
 export 'dart:math' show min, max;
+
 export 'package:page_transition/page_transition.dart';
+
 export 'lat_lng.dart';
 export 'place.dart';
 
@@ -41,6 +43,7 @@ DateTime get getCurrentTimestamp => DateTime.now();
 bool get isIos => !kIsWeb && Platform.isIOS;
 
 LatLng cachedUserLocation;
+
 Future<LatLng> getCurrentUserLocation(
         {LatLng defaultLocation, bool cached = false}) async =>
     cached && cachedUserLocation != null
