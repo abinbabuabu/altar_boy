@@ -136,7 +136,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 labelStyle: FlutterFlowTheme.bodyText1.override(
                                   color: Color(0xD23A3A3A),
                                 ),
-                                hintText: 'Your Password',
+                                hintText: Constants.HINT_PASSWORD,
                                 hintStyle: FlutterFlowTheme.bodyText1.override(
                                   color: Color(0xD23A3A3A),
                                 ),

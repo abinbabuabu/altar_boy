@@ -30,4 +30,5 @@ class Constants {
   static const String FORGOT_PASSWORD = 'Forgot Password ?';
   static const String DONT_HAVE_AN_ACCOUNT ='Don\'t have an account ?  ';
   static const String REGISTER = 'Register';
+  static const String HINT_PASSWORD = 'Your Password';
 }
