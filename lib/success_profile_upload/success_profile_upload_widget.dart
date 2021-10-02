@@ -53,7 +53,6 @@ class _SuccessProfileUploadWidgetState
                         'Profile has been \nsuccessfully updated \nin the profile',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.title1.override(
-                          fontFamily: 'Montserrat',
                           color: FlutterFlowTheme.tertiaryColor,
                         ),
                       )
@@ -86,7 +85,6 @@ class _SuccessProfileUploadWidgetState
                         height: 55,
                         color: FlutterFlowTheme.primaryColor,
                         textStyle: FlutterFlowTheme.subtitle2.override(
-                          fontFamily: 'Montserrat',
                           color: Colors.white,
                           fontWeight: FontWeight.w500,
                         ),
@@ -113,7 +111,6 @@ class _SuccessProfileUploadWidgetState
                         height: 55,
                         color: FlutterFlowTheme.tertiaryColor,
                         textStyle: FlutterFlowTheme.subtitle2.override(
-                          fontFamily: 'Montserrat',
                           color: FlutterFlowTheme.secondaryColor,
                           fontWeight: FontWeight.w500,
                         ),

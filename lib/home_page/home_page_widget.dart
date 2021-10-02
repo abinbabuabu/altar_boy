@@ -22,7 +22,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         title: Text(
           'Matrimony',
           style: FlutterFlowTheme.title1.override(
-            fontFamily: 'Montserrat',
             color: FlutterFlowTheme.tertiaryColor,
             fontWeight: FontWeight.w600,
           ),

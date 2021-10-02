@@ -37,7 +37,6 @@ class _LoginWidgetState extends State<LoginWidget> {
             'Login',
             textAlign: TextAlign.start,
             style: FlutterFlowTheme.bodyText1.override(
-              fontFamily: 'Montserrat',
               color: FlutterFlowTheme.tertiaryColor,
               fontSize: 20,
               fontWeight: FontWeight.w600,
@@ -75,7 +74,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                       Text(
                         'Welcome back \nto Altar Boy ',
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: 'Montserrat',
                           color: FlutterFlowTheme.tertiaryColor,
                           fontSize: 36,
                           fontWeight: FontWeight.bold,
@@ -86,7 +84,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                         child: Text(
                           'Lorem Ipsum is simply dummy text of ',
                           style: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
                             color: Color(0xAAFFFFFF),
                             fontWeight: FontWeight.w500,
                           ),
@@ -97,7 +94,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                         child: Text(
                           'printing and typesetting industry. ',
                           style: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: 'Montserrat',
                             color: Color(0xAAFFFFFF),
                             fontWeight: FontWeight.w500,
                           ),
@@ -138,12 +134,10 @@ class _LoginWidgetState extends State<LoginWidget> {
                               decoration: InputDecoration(
                                 labelText: Constants.PASSWORD,
                                 labelStyle: FlutterFlowTheme.bodyText1.override(
-                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Color(0xD23A3A3A),
                                 ),
                                 hintText: 'Your Password',
                                 hintStyle: FlutterFlowTheme.bodyText1.override(
-                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Color(0xD23A3A3A),
                                 ),
                                 enabledBorder: OutlineInputBorder(
@@ -166,7 +160,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                                     10, 20, 0, 20),
                               ),
                               style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: Constants.FONT_FAMILY,
                                 color: Color(0xD23A3A3A),
                               ),
                               keyboardType: TextInputType.visiblePassword,
@@ -182,9 +175,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                           Text(
                             Constants.FORGOT_PASSWORD,
                             textAlign: TextAlign.end,
-                            style: FlutterFlowTheme.bodyText1.override(
-                              fontFamily: Constants.FONT_FAMILY,
-                            ),
+                            style: FlutterFlowTheme.bodyText1.override(),
                           ),
                           Padding(
                             padding:
@@ -199,7 +190,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 height: 55,
                                 color: Colors.black,
                                 textStyle: FlutterFlowTheme.subtitle2.override(
-                                  fontFamily: Constants.FONT_FAMILY,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w500,
                                 ),
@@ -231,15 +221,13 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 children: [
                                   Text(
                                     Constants.DONT_HAVE_AN_ACCOUNT,
-                                    style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: Constants.FONT_FAMILY,
-                                    ),
+                                    style:
+                                        FlutterFlowTheme.bodyText1.override(),
                                   ),
                                   Text(
                                     Constants.REGISTER,
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: Constants.FONT_FAMILY,
                                       color: Color(0xFF059CD9),
                                       fontWeight: FontWeight.w600,
                                     ),

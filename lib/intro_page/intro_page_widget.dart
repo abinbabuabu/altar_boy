@@ -101,7 +101,6 @@ class _IntroPageWidgetState extends State<IntroPageWidget>
                       height: 56,
                       color: Colors.black,
                       textStyle: FlutterFlowTheme.subtitle2.override(
-                        fontFamily: 'Montserrat',
                         color: Colors.white,
                         fontWeight: FontWeight.w500,
                       ),
@@ -130,7 +129,6 @@ class _IntroPageWidgetState extends State<IntroPageWidget>
                       height: 56,
                       color: Color(0x00044293),
                       textStyle: FlutterFlowTheme.subtitle2.override(
-                        fontFamily: 'Montserrat',
                         color: Colors.black,
                         fontWeight: FontWeight.w500,
                       ),

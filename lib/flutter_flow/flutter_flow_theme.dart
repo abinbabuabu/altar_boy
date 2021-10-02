@@ -1,3 +1,4 @@
+import 'package:altar_boy/assets/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -62,13 +63,12 @@ class FlutterFlowTheme {
 
 extension TextStyleHelper on TextStyle {
   TextStyle override(
-          {String fontFamily,
-          Color color,
+          {Color color,
           double fontSize,
           FontWeight fontWeight,
           FontStyle fontStyle}) =>
       GoogleFonts.getFont(
-        fontFamily,
+        Constants.FONT_FAMILY,
         color: color ?? this.color,
         fontSize: fontSize ?? this.fontSize,
         fontWeight: fontWeight ?? this.fontWeight,

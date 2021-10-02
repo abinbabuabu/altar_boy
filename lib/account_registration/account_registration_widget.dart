@@ -52,7 +52,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
           title: Text(
             Constants.ACCOUNT_REGISTRATION,
             style: FlutterFlowTheme.bodyText1.override(
-              fontFamily: Constants.FONT_FAMILY,
               color: Constants.WHITE_BACKGROUND,
               fontSize: 24,
               fontWeight: FontWeight.w500,
@@ -87,12 +86,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.CHURCH_NAME,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: Constants.HINT_CHURCH_NAME,
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -115,7 +112,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
@@ -135,12 +131,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.PRIEST_NAME,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: Constants.HINT_NAME,
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -163,7 +157,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
@@ -183,12 +176,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.DENOMINATION,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -211,7 +202,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         validator: (val) {
@@ -231,12 +221,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.EMAIL,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -259,7 +247,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.emailAddress,
@@ -280,12 +267,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.PASSWORD,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -308,7 +293,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.visiblePassword,
@@ -329,12 +313,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.PHONE,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -357,7 +339,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.phone,
@@ -378,12 +359,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.ADDRESS_LANE_1,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -406,7 +385,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.streetAddress,
@@ -427,12 +405,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.ADDRESS_LANE_2,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -455,7 +431,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.streetAddress,
@@ -476,12 +451,10 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                         decoration: InputDecoration(
                           labelText: Constants.PINCODE,
                           labelStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           hintText: 'Your Church Name',
                           hintStyle: FlutterFlowTheme.bodyText1.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Constants.DARK_FONT_COLOR,
                           ),
                           enabledBorder: OutlineInputBorder(
@@ -504,7 +477,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                               EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
                         ),
                         style: FlutterFlowTheme.bodyText1.override(
-                          fontFamily: Constants.FONT_FAMILY,
                           color: Constants.DARK_FONT_COLOR,
                         ),
                         keyboardType: TextInputType.number,
@@ -529,7 +501,6 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                           height: 55,
                           color: Colors.black,
                           textStyle: FlutterFlowTheme.subtitle2.override(
-                            fontFamily: Constants.FONT_FAMILY,
                             color: Colors.white,
                             fontWeight: FontWeight.w500,
                           ),
@@ -558,14 +529,11 @@ class _AccountRegistrationWidgetState extends State<AccountRegistrationWidget> {
                           children: [
                             Text(
                               Constants.HAVE_ACCOUNT,
-                              style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: Constants.FONT_FAMILY,
-                              ),
+                              style: FlutterFlowTheme.bodyText1.override(),
                             ),
                             Text(
                               Constants.LOGIN,
                               style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: Constants.FONT_FAMILY,
                                 color: Color(0xFF059CD9),
                                 fontWeight: FontWeight.w600,
                               ),

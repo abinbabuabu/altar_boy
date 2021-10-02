@@ -65,7 +65,6 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Name',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -76,7 +75,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Elizabeth',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -114,7 +113,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                               'Date of Birth',
                                               style: FlutterFlowTheme.bodyText1
                                                   .override(
-                                                fontFamily: 'Montserrat',
+                                                
                                                 color: Color(0xD23A3A3A),
                                               ),
                                             ),
@@ -127,7 +126,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                               '11 Nov 1998',
                                               style: FlutterFlowTheme.title3
                                                   .override(
-                                                fontFamily: 'Montserrat',
+                                                
                                               ),
                                             ),
                                           )
@@ -155,7 +154,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Gender',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -168,7 +167,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Female',
                                             style: FlutterFlowTheme.title3
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                             ),
                                           ),
                                         )
@@ -208,7 +207,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Father Name',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -221,7 +220,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Anil Kumla',
                                             style: FlutterFlowTheme.title3
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                             ),
                                           ),
                                         )
@@ -248,7 +247,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Mothers Name',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -261,7 +260,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Maria Thomas',
                                             style: FlutterFlowTheme.title3
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                             ),
                                           ),
                                         )
@@ -301,7 +300,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Phone Number',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -314,7 +313,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             '+91 944244 9431',
                                             style: FlutterFlowTheme.title3
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                             ),
                                           ),
                                         )
@@ -341,7 +340,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Phone icon goes here',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -370,7 +369,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                         'Email ID',
                                         style:
                                             FlutterFlowTheme.bodyText1.override(
-                                          fontFamily: 'Montserrat',
+                                          
                                           color: Color(0xD23A3A3A),
                                         ),
                                       ),
@@ -381,7 +380,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       child: Text(
                                         'friendsrachel@gmail.com',
                                         style: FlutterFlowTheme.title3.override(
-                                          fontFamily: 'Montserrat',
+                                          
                                         ),
                                       ),
                                     )
@@ -406,7 +405,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Address',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -417,7 +416,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Kamaraj Nagar, Near Bus Stand,',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   ),
@@ -427,7 +426,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Attibele Road, Hosur 635 126',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -469,7 +468,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       child: Text(
                                         'CHURCH INFORMATION',
                                         style: FlutterFlowTheme.title1.override(
-                                          fontFamily: 'Montserrat',
+                                          
                                           color: Color(0xFF868686),
                                         ),
                                       ),
@@ -497,7 +496,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Church Name',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -508,7 +507,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'World Revival Prayer Ministries',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -534,7 +533,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Priest / Pastor Name',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -545,7 +544,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Johnson',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -584,7 +583,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             'Pastor\'s contact number',
                                             style: FlutterFlowTheme.bodyText1
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                               color: Color(0xD23A3A3A),
                                             ),
                                           ),
@@ -597,7 +596,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                             '+91 944244 9431',
                                             style: FlutterFlowTheme.title3
                                                 .override(
-                                              fontFamily: 'Montserrat',
+                                              
                                             ),
                                           ),
                                         )
@@ -624,7 +623,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                           'Phone icon goes here',
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
-                                            fontFamily: 'Montserrat',
+                                            
                                             color: Color(0xD23A3A3A),
                                           ),
                                         ),
@@ -653,7 +652,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Denomination',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -664,7 +663,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Roman Catholic',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -690,7 +689,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                       'Address',
                                       style:
                                           FlutterFlowTheme.bodyText1.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                         color: Color(0xD23A3A3A),
                                       ),
                                     ),
@@ -701,7 +700,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Kamaraj Nagar, Near Bus Stand,',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   ),
@@ -711,7 +710,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                     child: Text(
                                       'Attibele Road, Hosur 635 126',
                                       style: FlutterFlowTheme.title3.override(
-                                        fontFamily: 'Montserrat',
+                                        
                                       ),
                                     ),
                                   )
@@ -748,7 +747,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                 child: Text(
                                   'EDUCATIONAL NFORMATION',
                                   style: FlutterFlowTheme.title1.override(
-                                    fontFamily: 'Montserrat',
+                                    
                                     color: Color(0xFF868686),
                                   ),
                                 ),
@@ -773,7 +772,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Education Qualification',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -784,7 +783,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Post Graduate',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )
@@ -809,7 +808,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Stream Information',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -820,7 +819,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Scientific Answer',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )
@@ -845,7 +844,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Career',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -856,7 +855,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Self Employed',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )
@@ -881,7 +880,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Career',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -892,7 +891,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Emilda Solutions',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )
@@ -917,7 +916,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Physically Challenged',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -928,7 +927,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'No',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )
@@ -953,7 +952,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'Already Married',
                                     style: FlutterFlowTheme.bodyText1.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                       color: Color(0xD23A3A3A),
                                     ),
                                   ),
@@ -964,7 +963,7 @@ class _DetailedProfilePageWidgetState extends State<DetailedProfilePageWidget> {
                                   child: Text(
                                     'No',
                                     style: FlutterFlowTheme.title3.override(
-                                      fontFamily: 'Montserrat',
+                                      
                                     ),
                                   ),
                                 )

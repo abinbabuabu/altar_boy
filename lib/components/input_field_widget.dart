@@ -32,12 +32,10 @@ class _InputFieldWidgetState extends State<InputFieldWidget> {
           decoration: InputDecoration(
             labelText: Constants.EMAIL,
             labelStyle: FlutterFlowTheme.bodyText1.override(
-              fontFamily: Constants.FONT_FAMILY,
               color: Constants.DARK_FONT_COLOR,
             ),
             hintText: 'Your Church Name',
             hintStyle: FlutterFlowTheme.bodyText1.override(
-              fontFamily: Constants.FONT_FAMILY,
               color: Constants.DARK_FONT_COLOR,
             ),
             enabledBorder: OutlineInputBorder(
@@ -59,7 +57,6 @@ class _InputFieldWidgetState extends State<InputFieldWidget> {
             contentPadding: EdgeInsetsDirectional.fromSTEB(10, 20, 0, 20),
           ),
           style: FlutterFlowTheme.bodyText1.override(
-            fontFamily: Constants.FONT_FAMILY,
             color: Color(0xD23A3A3A),
           ),
           keyboardType: TextInputType.emailAddress,
