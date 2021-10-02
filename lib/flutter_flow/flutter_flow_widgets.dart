@@ -95,14 +95,13 @@ class FFButtonWidget extends StatelessWidget {
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
           primary: options.color,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(options.borderRadius ?? 28),
-              side: options.borderSide ?? BorderSide.none,
-            ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(options.borderRadius ?? 28),
+            side: options.borderSide ?? BorderSide.none,
+          ),
           padding: options.padding,
-
         ),
-          child: textWidget,
+        child: textWidget,
       ),
     );
   }
