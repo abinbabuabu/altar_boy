@@ -25,7 +25,6 @@ class AnimationInfo {
   final int delay;
   final bool fadeIn;
   final Offset slideOffset;
-  final double scale;
   CurvedAnimation curvedAnimation;
 }
 
